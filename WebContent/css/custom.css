@@ -1,10 +1,15 @@
 @import url(http://fonts.googleapis.com/earlyaccess/naumgothic.css);
 @import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css); 
+
+h1, h2, h3, h4{
+	font-family : 'jeju Gothic';
+}
 
 *{
 	font-family : 'Nanum Gothic';
 }
 
-h1 {
+/* h1, h3 {
 	font-family : 'Hanna';
-}
+} */

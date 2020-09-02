@@ -1,6 +1,6 @@
 package model;
 
-public class userDTO {
+public class UserDTO {
 	
 	String userType;
 	String userNo;
@@ -80,11 +80,11 @@ public class userDTO {
 		this.userNm = userNm;
 	}
 	
-	public userDTO() {
+	public UserDTO() {
 
 	}
 	
-	public userDTO(String userType, String userNo, String userId, String userPwd, String birthDt, String gender,
+	public UserDTO(String userType, String userNo, String userId, String userPwd, String birthDt, String gender,
 			String email, String contact, String stYmdhms, String endYmshms, String userNm) {
 		super();
 		this.userType = userType;
